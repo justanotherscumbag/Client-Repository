@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { Card } from '../components/ui/card';  // Change this line
+import Card from '../components/ui/Card';
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
