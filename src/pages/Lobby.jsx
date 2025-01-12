@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { Card } from '@/components/ui/card';
+import { Card } from '../components/ui/card';  // Change this line
 import webSocketService from '../services/WebSocketService';
 
 const Lobby = () => {
